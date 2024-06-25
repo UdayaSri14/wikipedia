@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <fieldset>
+        <legend align ="center"><b>Your Address</b></legend>
+        <label for="register_country" class="label"><b>Select Country:</b></label></td>  
+                    <select name="country" id="register_country" style="width:250px">  
+                    <option value="india">india</option>  
+                    <option value="United States">United States</option>  
+                    <option value="United Kingdom">United Kingdom</option>  
+                    <option value="china">china</option>  
+                    <option value="Australia">Australia</option> 
+                    <option value="Russia">Russia</option>
+                    <option value="Other">Other</option> 
+                </select><br><br>
+                <label for ="fname"><b>Full Name(First and Last name)<b></label><br><br>
+                <input type ="text" name ="fname" style ="width:250px"/><br><br>
+                <label for ="mobile_number"><b>Mobile number</b></label><br><br>
+                <input type ="tell" name ="mnumber" pattern ="[0,9]{10}" style ="width:250px" placeholder="10-digit mobile number without prefixes"/><br><br>
+                <label for="address"><b>Flat, House no.,Building, Company, Apartment</b></label><br><br>
+                <input type ="text, number name = adname" style ="width:250px"/><br><br>
+                <label for="location"><b>Area, Street, Sector, Village</b></label><br><br>
+                <input type ="text" name ="lname" style="width:250px"><br><br>
+                <label for="landmark"><b>Landmark</b></label><br><br>
+                <input type ="text" name ="lmark" style="width:250px" placeholder="E.g.10k coders"/><br><br>
+                <label for="pincode"><b>Pincode</b></label><br><br>
+                <input type="tell" name="nname" style="width:250px" placeholder="6-digit Pincode"/><br><br>                   
+                <label for="towncity"><b>Town/City</b></label><br><br>
+                <input type="text" name="tname" style="width:250px"/><br><br>
+                <label for="State"><b>Select State:</b></label>
+                <select name="state" id="sname" style="width:250px">  
+                <option value="Telangana">Telangana</option>  
+                <option value="Andhra Pradesh">Andhra Pradesh</option>  
+                <option value="Odisha">Odisha</option>  
+                <option value="Punjab">Punjab</option>  
+                <option value="Tamilnadu">Tamilnadu</option> 
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Other">Other</option> 
+                </select><br><br>
+                <input type ="submit" value ="Add Address"/>
+
+    </fieldset>
+    </body>
+</html>
